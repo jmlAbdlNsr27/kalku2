@@ -1,0 +1,104 @@
+section {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+/* welcome page */
+
+.welcomepage-box .box p {
+  width: 500px;
+  --animate-delay: 0.5s;
+}
+
+.welcomepage-box .box h1 {
+  --animate-delay: 0.5s;
+}
+
+.welcomepage-box .box img {
+  width: 450px;
+}
+
+@media (max-width: 992px) {
+  p {
+    font-size: 14px;
+  }
+
+  .welcomepage-box .box p {
+    width: 300px;
+  }
+
+  .welcomepage-box .box img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tag-head {
+    padding-top: 70px;
+  }
+
+  .welcomepage-box {
+    text-align: center;
+  }
+
+  .welcomepage {
+    padding-top: 50px;
+  }
+
+  .welcomepage-box .box p {
+    width: 100%;
+  }
+}
+
+/* welcome page end */
+
+/* keuntungan*/
+.keuntungan-box .keuntungan i {
+  font-size: 35px;
+}
+
+/* keuntungan end */
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.footer-box .row .col:nth-child(2) a {
+  opacity: 75%;
+}
+
+.footer-box .row .col:nth-child(2) a:hover {
+  opacity: 100%;
+}
+
+.copyright {
+  margin-top: 100px;
+}
+
+/* Footer */
+
+.floating-help-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #198754;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: background-color 0.3s;
+}
+
+.floating-help-button:hover {
+  background-color: #055b33;
+}
+
+

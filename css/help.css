@@ -1,0 +1,44 @@
+.helpdesk-contact {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f1f9f4;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(4, 132, 34, 0.204);
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.helpdesk-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+
+.helpdesk-desc {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #475569;
+}
+
+.helpdesk-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #334155;
+}
+
+.helpdesk-list li {
+    margin-bottom: 12px;
+}
+
+.helpdesk-list a {
+    color: #2b749c;
+    text-decoration: none;
+}
+
+.helpdesk-list a:hover {
+    text-decoration: underline;
+}
